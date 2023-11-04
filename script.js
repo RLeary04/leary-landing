@@ -16,9 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             holyMoly.setAttribute("id", "holyMoly");
 
-            holyMoly.setAttribute("alt", "holy moly meme");
+            holyMoly.setAttribute("alt", "holyMoly");
 
             document.body.appendChild(holyMoly);
         }
     });
+
 });
