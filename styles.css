@@ -19,6 +19,9 @@ button:hover {
 img {
     width: 150px;
 }
+a {
+    color: white;
+}
 
 a:visited {
     color: white;
