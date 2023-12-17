@@ -20,6 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             document.body.appendChild(holyMoly);
         }
+
+        function redirectToLink(url) {
+            // Change the location of the current window to the specified URL
+            window.location.href = url;
+        }
     });
 
 });
