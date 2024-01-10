@@ -48,9 +48,15 @@ a:hover {
     padding: 10px 10px;
 }
 
-@media screen and (max-height: 450px) {
+@media (max-width: 1250px) {
     .navbar {padding-top: 15px;}
+    .navbar {width: fit-content;}
     .navbar {font-size: 18px;}
+    .main {
+        margin-left: 150px;
+        width: 60%;
+        padding: 10px 10px 10px 10px;
+    }
 }
 
 #activeLink {
